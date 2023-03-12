@@ -1,0 +1,60 @@
+/* Set background color of the body */
+body {
+    background-color: #080c5b;
+  }
+  
+  /* Style the image and text container */
+  .image-and-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 0;
+  }
+  
+  /* Style the goat image */
+  img {
+    width: 450px;
+    height: 300px;
+  }
+  
+  /* Style the paragraph */
+  p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+  }
+  
+  /* Style the page title */
+  h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Style the navigation links */
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0 20px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
