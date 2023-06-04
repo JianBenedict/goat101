@@ -1,0 +1,50 @@
+#subcontent {
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  #data-list {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  #data-list th, #data-list td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  #data-list th {
+    background-color: #eee;
+  }
+
+  #search {
+    font-size: 15px;
+    background-color: white;
+  }
+
+  #download-buttons {
+    display: flex;
+    justify-content: left;
+  }
+  
+  .excel-button,
+  .pdf-button {
+    background-color: rgb(5, 166, 5);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .pdf-button {
+    background-color: rgb(243, 99, 3);
+  }
+  
